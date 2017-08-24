@@ -4,6 +4,7 @@
 
 #include <iostream>
 #include <sstream>
+#include <stdexcept>
 #include "Game.hpp"
 
 #define EMPTYICON '.'
