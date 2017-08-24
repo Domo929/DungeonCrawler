@@ -27,7 +27,7 @@ int Entity::getY() const {
 }
 
 void Entity::setIdentifiers(std::string name, char icon) {
-    Entity::name = name;
+    Entity::name = std::move(name);
     Entity::icon = icon;
 }
 
